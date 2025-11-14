@@ -15,7 +15,8 @@ authors = [
 dependencies = []
 
 [project.scripts]
-JKQC = "JKQC.main:main"
+jkqc = "jkqc.JKQC:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+

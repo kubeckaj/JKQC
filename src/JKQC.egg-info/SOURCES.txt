@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/JKQC.egg-info/PKG-INFO
+src/JKQC.egg-info/SOURCES.txt
+src/JKQC.egg-info/dependency_links.txt
+src/JKQC.egg-info/entry_points.txt
+src/JKQC.egg-info/top_level.txt
+src/jkqc/JKQC.py

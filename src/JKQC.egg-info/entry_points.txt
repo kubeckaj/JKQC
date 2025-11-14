@@ -1,0 +1,2 @@
+[console_scripts]
+jkqc = jkqc.JKQC:main
