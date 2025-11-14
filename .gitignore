@@ -1,1 +1,3 @@
-**output
+**/output
+.venv
+**/__pycache__

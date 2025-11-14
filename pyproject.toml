@@ -7,12 +7,13 @@ name = "JKQC"
 version = "0.1.0"
 description = "Jammy Key for Quantum Chemistry"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.9,<=3.10"
 license = { text = "GPL-3.0 license" }    # or another license
 authors = [
   { name = "Jakub Kubecka", email = "akcebukbukaj@gmail.com" }
 ]
-dependencies = []
+dependencies = [ "numpy==1.25.2", "scipy==1.9.3", "joblib==1.3.2", "pathlib==1.0.1", "numexpr==2.8.4", "psutil", "xlsxwriter", "rdkit", "pandas==1.5.3", "ase==3.24.0"]
+#[ "numpy==1.25.2", "scipy==1.9.3", "joblib==1.3.2", "pathlib==1.0.1", "numexpr==2.8.4", "psutil", "xlsxwriter", "rdkit", "pandas==1.5.3", "ase==3.24.0", "lapjv"]
 
 [project.scripts]
 jkqc = "jkqc.JKQC:main"

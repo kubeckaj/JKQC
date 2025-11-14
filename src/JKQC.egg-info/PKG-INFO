@@ -4,10 +4,39 @@ Version: 0.1.0
 Summary: Jammy Key for Quantum Chemistry
 Author-email: Jakub Kubecka <akcebukbukaj@gmail.com>
 License: GPL-3.0 license
-Requires-Python: >=3.9
+Requires-Python: <=3.10,>=3.9
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: numpy==1.25.2
+Requires-Dist: scipy==1.9.3
+Requires-Dist: joblib==1.3.2
+Requires-Dist: pathlib==1.0.1
+Requires-Dist: numexpr==2.8.4
+Requires-Dist: psutil
+Requires-Dist: xlsxwriter
+Requires-Dist: rdkit
+Requires-Dist: pandas==1.5.3
+Requires-Dist: ase==3.24.0
 Dynamic: license-file
 
 # JKQC
 Jammy Key for Quantum Chemistry
+
+You can install with `pip install -e .`
+
+Here is an example:
+
+.. code:
+
+   git clone https://github.com/kubeckaj/JKQC.git
+   cd JKQC
+   python -m venv .venv
+   source .venv/bin/activate
+   pip install -e .
+   jkqc --help
+
+.. note:
+ 
+   Make sure you use the correct python version
+
+
